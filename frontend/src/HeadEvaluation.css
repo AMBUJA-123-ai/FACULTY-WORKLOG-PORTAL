@@ -1,0 +1,69 @@
+.evaluation-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.worklog-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.worklog-table th, .worklog-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.worklog-table th {
+  background-color: #f4f4f4;
+}
+
+.worklog-table td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.worklog-table td button:first-child {
+  background-color: #28a745;
+}
+
+.worklog-table td button:last-child {
+  background-color: #dc3545;
+}
+
+.worklog-table td button:hover {
+  opacity: 0.8;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no-data {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+
